@@ -25,7 +25,6 @@ static void reimu_spirit_preload(void) {
 	//NULL);
 }
 
-
 static void reimu_spirit_bomb(Player *p) {
 }
 static void reimu_spirit_shot(Player *p) {
@@ -37,7 +36,7 @@ PlayerMode plrmode_reimu_b = {
 	.name = "Spirit Sign",
 	.character = &character_reimu,
 	.shot_mode = PLR_SHOT_REIMU_SPIRIT,
-	.procs = { 
+	.procs = {
 		.bomb = reimu_spirit_bomb,
 		.shot = reimu_spirit_shot,
 		.power = reimu_spirit_power,
